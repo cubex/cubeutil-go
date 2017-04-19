@@ -1,4 +1,4 @@
-package cubeutil
+package cubeutil_test
 
 import "github.com/cubex/potens-go/cubeutil"
 import "testing"
