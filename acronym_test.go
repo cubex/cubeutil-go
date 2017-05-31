@@ -1,7 +1,9 @@
 package cubeutil_test
 
-import "github.com/cubex/potens-go/cubeutil"
-import "testing"
+import (
+	"testing"
+	"github.com/cubex/cubeutil-go"
+)
 
 func TestAcronym(t *testing.T) {
 	if cubeutil.Acronym("A Really Long Acronym Goes Here", 3) != "ARL" {

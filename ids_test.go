@@ -1,7 +1,9 @@
 package cubeutil_test
 
-import "github.com/cubex/potens-go/cubeutil"
-import "testing"
+import (
+	"testing"
+	"github.com/cubex/cubeutil-go"
+)
 
 func TestCreateID(t *testing.T) {
 	id := cubeutil.CreateID("kh w-ekhwlkeh  --   fklwhelkfh£$*%(^£@^$I!@&$! wjg")

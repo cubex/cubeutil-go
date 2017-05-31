@@ -1,7 +1,9 @@
 package cubeutil_test
 
-import "github.com/cubex/potens-go/cubeutil"
-import "testing"
+import (
+	"testing"
+	"github.com/cubex/cubeutil-go"
+)
 
 func TestRandomAlphaNum(t *testing.T) {
 	if len(cubeutil.RandomAlphaNum(1)) != 1 {
